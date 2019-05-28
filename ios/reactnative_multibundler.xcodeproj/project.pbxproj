@@ -42,7 +42,6 @@
 		8EC97BB9221D771D0002109C /* index2.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC97BB5221D771D0002109C /* index2.ios.bundle */; };
 		8EC97BBA221D771D0002109C /* platform.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC97BB6221D771D0002109C /* platform.ios.bundle */; };
 		8EC97BBD221D7B460002109C /* index3.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC97BBB221D7B450002109C /* index3.ios.bundle */; };
-		8EC97BBE221D7B460002109C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC97BBC221D7B460002109C /* assets */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -355,7 +354,6 @@
 		8EC97BB5221D771D0002109C /* index2.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index2.ios.bundle; sourceTree = "<group>"; };
 		8EC97BB6221D771D0002109C /* platform.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = platform.ios.bundle; sourceTree = "<group>"; };
 		8EC97BBB221D7B450002109C /* index3.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index3.ios.bundle; sourceTree = "<group>"; };
-		8EC97BBC221D7B460002109C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -499,7 +497,6 @@
 		13B07FAE1A68108700A75B9A /* reactnative_multibundler */ = {
 			isa = PBXGroup;
 			children = (
-				8EC97BBC221D7B460002109C /* assets */,
 				8EC97BBB221D7B450002109C /* index3.ios.bundle */,
 				8EC97BB3221D771D0002109C /* index.ios.bundle */,
 				8EC97BB5221D771D0002109C /* index2.ios.bundle */,
@@ -1080,7 +1077,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EC97BB8221D771D0002109C /* MainScreen.xib in Resources */,
-				8EC97BBE221D7B460002109C /* assets in Resources */,
 				8EC97BBA221D771D0002109C /* platform.ios.bundle in Resources */,
 				8EC97BB7221D771D0002109C /* index.ios.bundle in Resources */,
 				8EC97BBD221D7B460002109C /* index3.ios.bundle in Resources */,
